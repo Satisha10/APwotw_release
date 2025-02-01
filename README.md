@@ -37,3 +37,6 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 - Probably a lot of crashes.
 - Seed generation fails often, especially in Moki difficulty.
 - The last item that you collected can be duplicated when you respawn.
+- No Rain does not work.
+- Hammer, Shuriken are not usable.
+- Some locations are automatically given when they are excluded, they should not be in the pool instead.
