@@ -32,6 +32,8 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 
 ## Current issues
 
+- The game sometimes does not launch at all, for currently unknown reasons.
+- The game need to be hosted on the archipelago website, local host does not work for now.
 - Probably a lot of crashes.
 - Seed generation fails often, especially in Moki difficulty.
 - The last item that you collected can be duplicated when you respawn.
