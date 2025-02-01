@@ -7,7 +7,7 @@ Client code: https://github.com/Satisha10/wotw-rando-client/tree/AP_local
 
 ## Setup guide
 
-You can download the latest release from this repository.
+You can download the latest release from this repository (download the `AP_WotW.zip` file, and extract it).
 
 It contains the Archipelago world `ori_wotw.apworld` that you can install. There are some `.yaml` templates in the `Template` folder for different logic difficulties (Moki being the easiest, Kii the hardest).
 
