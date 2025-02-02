@@ -1,5 +1,9 @@
 # Releases for the Archipelago implementation of Ori and the Will of the Wisps.
 
+## Disclaimer
+
+The implementation is in an alpha and very bugged state, and is only barely playable. You should only play it if you want to help with testing.
+
 ## Source code
 
 AP World: https://github.com/Satisha10/Archipelago_wotw/tree/main/worlds/ori_wotw
@@ -32,11 +36,13 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 
 ## Current issues
 
+- Probably a lot of crashes.
+- Multiworld generation fails if there are other games.
 - The game sometimes does not launch at all, for currently unknown reasons.
 - The game need to be hosted on the archipelago website, local host does not work for now.
-- Probably a lot of crashes.
 - Seed generation fails often, especially in Moki difficulty.
 - The last item that you collected can be duplicated when you respawn.
 - No Rain does not work.
 - Hammer, Shuriken are not usable.
+- Clean water instead gives the escape location.
 - Some locations are automatically given when they are excluded, they should not be in the pool instead.
