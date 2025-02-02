@@ -12,9 +12,9 @@ Client code: https://github.com/Satisha10/wotw-rando-client/tree/AP_local
 
 ## Setup guide
 
-You can download the latest release from this repository (download the `AP_WotW.zip` file, and extract it).
+You can download the latest release from this repository (download the `AP_WotW.zip` file, and extract it). You will probably get a warning from the antivirus, since the client works by injecting code in the game.
 
-It contains the Archipelago world `ori_wotw.apworld` that you can install. There are some `.yaml` templates in the `Template` folder for different logic difficulties (Moki being the easiest, Kii the hardest).
+The floder contains the Archipelago world `ori_wotw.apworld` that you can install. There are some `.yaml` templates in the `Template` folder for different logic difficulties (Moki being the easiest, Kii the hardest).
 
 ### To install the client:
 
@@ -27,8 +27,9 @@ It contains the Archipelago world `ori_wotw.apworld` that you can install. There
 - Once you generated a game, grab from the output folder a `.wotwr` file (it should have your slot name in it).
 - Open this file with a text editor and fill the `APAddress:` and `APPort:` champs with the connection informations (the `APSlot:` line should already contain your slot name).
 - Open this file with the WotW launcher. If everything worked, you will be connected after starting a new save file.
+- For now, the game needs to be hosted in the website.
 
-If you want to more information about the WotW randomizer or to learn some glitches, you can check the wiki https://wotw.orirando.com/
+If you want to more information about the WotW randomizer or to learn some glitches, you can check the wiki https://wiki.orirando.com/
 
 ## Feedback
 
@@ -37,12 +38,10 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 ## Current issues
 
 - Probably a lot of crashes.
-- Multiworld generation fails if there are other games.
-- The game sometimes does not launch at all, for currently unknown reasons.
-- The game need to be hosted on the archipelago website, local host does not work for now.
-- Seed generation fails often, especially in Moki difficulty.
+- Items received from another game are only available after a location is collected.
+- The game need to be hosted on the archipelago website, local host does not work for now. (fix maybe found)
+- Seed generation fails often, especially in Moki difficulty. You can try to use `accessibility: minimal` and set spoiler log to 1, which might help.
 - The last item that you collected can be duplicated when you respawn.
-- No Rain does not work.
-- Hammer, Shuriken are not usable.
-- Clean water instead gives the escape location.
 - Some locations are automatically given when they are excluded, they should not be in the pool instead.
+- If you exit the game, you lose the items that you received until the last time you saved.
+- Item cheating does not work well.
