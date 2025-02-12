@@ -1,8 +1,8 @@
-# Releases for the Archipelago implementation of Ori and the Will of the Wisps.
+# Releases for the Archipelago implementation of Ori and the Will of the Wisps
 
 ## Disclaimer
 
-The implementation is in an alpha and very bugged state, and is only barely playable. You should only play it if you want to help with testing.
+The implementation is in an alpha state, so you will likely encounter bugs or crashes when playing.
 
 ## Source code
 
@@ -14,9 +14,9 @@ Client code: https://github.com/Satisha10/wotw-rando-client/tree/AP_local
 
 You can download the latest release from this repository (download the `AP_WotW.zip` file, and extract it). You will probably get a warning from the antivirus, since the client works by injecting code in the game.
 
-The floder contains the Archipelago world `ori_wotw.apworld` that you can install. There are some `.yaml` templates in the `Template` folder for different logic difficulties (Moki being the easiest, Kii the hardest).
+The folder contains the Archipelago world `ori_wotw.apworld` that you can install. There are some `.yaml` templates in the `Template` folder for different logic difficulties (Moki being the easiest, Kii the hardest).
 
-### To install the client:
+### Client installation
 
 - Download the standalone WotW randomizer from https://wotw.orirando.com/
 - In the home page, there is a small button (on the right) to open the randomizer directory. In this folder, paste the binaries from the `Client` folder. This will override the existing ones (you can stash them somewhere or reinstall a stable version later).
@@ -35,13 +35,8 @@ If you want to more information about the WotW randomizer or to learn some glitc
 
 You can report issues or give suggestions in the Archipelago Discord server (in the corresponding discussion of `future-game-design`). I will also see it if you send it in the Ori Runs or the Ori Rando Dev Server.
 
-## Current issues
+## Known issues
 
-- Probably a lot of crashes.
-- Items received from another game are only available after a location is collected.
-- The game need to be hosted on the archipelago website, local host does not work for now. (fix maybe found)
-- Seed generation fails often, especially in Moki difficulty. You can try to use `accessibility: minimal` and set spoiler log to 1, which might help.
-- The last item that you collected can be duplicated when you respawn.
-- Some locations are automatically given when they are excluded, they should not be in the pool instead.
-- If you exit the game, you lose the items that you received until the last time you saved.
-- Item cheating does not work well.
+- The items that you get after starting a save file can be received again
+- Using `_` in your slot name can lead to problems when hosting the game in the website (you can try to remove the `.wotwr` file from the zip file if it happens).
+- Seed generation often fails when calculating playthrough if `accessibility: minimal` is not set.
