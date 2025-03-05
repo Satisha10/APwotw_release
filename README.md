@@ -37,13 +37,15 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 
 ## Remarks
 
+- Do not update the randomizer to the last version, this will override the AP client.
 - The randomizer has a tracker that you can start from the launcher, as well as a logic filter for the map, that shows the all the locations and highlights the ones that are in logic.
 - The AP client is compatible with the base randomizer.
 
 ## Known issues
 
+- The game can crash when receiving a message (most of the time when getting an item).
 - The items that you get after starting a save file can be received again.
-- Using `_` in your slot name can lead to problems when hosting the game in the website (you can try to remove the `.wotwr` file from the zip file if it happens).
+- Using `_` or `.` in your slot name can lead to problems when hosting the game in the website (you can try to remove the `.wotwr` file from the zip file if it happens).
 - Seed generation often fails, you will likely need several generation attempts before a successful one.
 - If the connection port changes, you need to create a new save file (after modifying the port in the `.wotwr` file).
 - The pickup counter in the game does not work.
