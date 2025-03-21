@@ -35,8 +35,11 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 - There is a [wiki](https://wiki.orirando.com/) for the randomizer if you want more information about it or to learn some tricks/glitches.
 - The randomizer has a tracker that you can start from the launcher, as well as a logic filter for the map, that shows the all the locations and highlights the ones that are in logic.
 - The AP client is compatible with the base randomizer.
+- If the port changes, you need to make a new save file.
 
 ## Known issues
 
 - Seed generation often fails, you will likely need several generation attempts before a successful one.
 - The pickup counter in the game does not work.
+- Better Wellspring has no effect.
+- With some settings, some locations hold a `Nothing` item instead of not existing.
