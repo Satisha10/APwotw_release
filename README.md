@@ -19,18 +19,18 @@ Download the AP world from this repository and install it by double-clicking it 
 ### Client installation
 
 - Download the [standalone WotW randomizer](https://wotw.orirando.com/).
-- Make sure that you are on a version above 4.31.0.
-- The randomizer can be detected as a malware by some antiviruses. If you use Windows Defender, you can add an exception in `Settings -> System`.
+- Make sure that you are on a version above 4.31.0. (and above 4.38.0 for the latest AP World)
+- The randomizer can be detected as a malware by some antiviruses. If you use Windows Defender, you can add an exception in `Settings -> System`.s
 
 ### Connecting to the Archipelago game
 
 In the Ori randomizer launcher, click on the three dots next to settings, then `Play Archipelago`. Enter the connection informations, and launch the game. If successful, a message will be displayed when opening a save file.
+Remark: when connection to a game hosted on `archipelago.gg`, make sure to enable secure connection. Disable it if you connect to `localhost` or an IP address.
 
 ## Important remarks
 
 - There is a [wiki](https://wiki.orirando.com/) for the randomizer if you want more information about it or to learn some tricks/glitches.
 - The randomizer has a tracker that you can start from the launcher, as well as a logic filter for the map, that shows the all the locations and highlights the ones that are in logic.
-- If the port changes, you need to make a new save file.
 
 ## Feedback
 
@@ -43,9 +43,3 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 - Depending on the settings, some locations hold a `Nothing` item instead of not existing. This is a temporary workaround for a crash.
 - Receiving items during a spirit trial can cause the items to desynchronize. If this happen with an important item, you can make a new save file to get it.
 - Released locations count for the goals.
-
-## Planned features that are not implemented yet
-
-- Deathlink
-- Entrance randomizer
-- Hint system
