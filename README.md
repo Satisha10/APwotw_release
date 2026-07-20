@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-The implementation is in an alpha state. Some features are missing and there are some bugs, but you should be able to play without too much trouble.
+The implementation is in a beta state (although stable). Most features are there, but some bugs remain (see the known issues section below).
 
 ## Source code (you don't need this if you just want to play)
 
@@ -31,7 +31,8 @@ Remark: when connection to a game hosted on `archipelago.gg`, make sure to enabl
 
 - If the game launches as vanilla (for example there is no text on the right when a save file is selected), it likely means that you antivirus blocked the injector. Refer to the `Client installation` section.
 - There is a [wiki](https://wiki.orirando.com/) for the randomizer if you want more information about it or to learn some tricks/glitches.
-- The randomizer has a tracker that you can start from the launcher, as well as a logic filter for the map, that shows the all the locations and highlights the ones that are in logic.
+- The slot is considered goaled when defeating Shriek (the final boss). The goal(s) that you mention on the `yaml` only prevent you from entering the fight before you finish them.
+- The randomizer has a tracker that you can start from the launcher, as well as a logic filter for the map, that shows the all the locations and highlights the ones that are in logic. Alternatively, yaml-less UT is supported.
 - There are some AP related actions accessible from the randomizer wheel. Hold **V** to open it.
 
 ## Feedback
@@ -40,9 +41,5 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 
 ## Known issues
 
-- Seed generation can fail if you randomize doors, or on some spawn locations if there are not games to fill the early spheres. Generation is stable otherwise.
-- Receiving items during a spirit trial can cause the items to desynchronize. If this happens with an important item, you can force an inventory reset from the randomizer wheel (hold **V** to open it).
-- Released locations count for the goals.
-- Quickly switching save files can cause some issues such as not saving the right seed to the new file, and being connected to two multiworld at once, or sending locations to the wrong multiworld. It is recommended to close the game before switching save files.
-- If you play with `door_rando`, some doors don't appear on the in-game map.
-- The in-game map doesn't take into account the `free_teleporters` and `regenerate_requirement` options. Universal Tracker does.
+- Seed generation might fail with non-vanilla spawns if there are not many games to fill the early spheres (this is currently getting worked on). Generation is stable otherwise.
+- Released locations count for the goals (except wisps).
