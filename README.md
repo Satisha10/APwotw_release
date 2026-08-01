@@ -35,7 +35,6 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 
 - Seed generation might fail with non-vanilla spawns if there are not many games to fill the early spheres (this is currently getting worked on). Generation is stable otherwise.
 - Released locations count for the goals (except wisps).
-- Entrance randomization has a ~3 % chance of failing during generation (due to a `ValueError` when removing from a list). A fix has already been made for the next release.
 
 ## Source code (you don't need this if you just want to play)
 
