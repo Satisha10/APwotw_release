@@ -38,6 +38,6 @@ You can report issues or give suggestions in the Archipelago Discord server (in 
 
 ## Source code (you don't need this if you just want to play)
 
-[AP World](https://github.com/Satisha10/Archipelago_wotw/tree/main/worlds/ori_wotw)
+[AP World](https://github.com/Satisha10/Archipelago_wotw/tree/main/worlds/ori_wotw) (Also available as a submodule in this repo, pinned to the latest release)
 
-[Client code](https://github.com/ori-community/wotw-rando-client/tree/archipelago)
+[Client code](https://github.com/ori-community/wotw-rando-client/tree/main/projects/Randomizer/archipelago)
